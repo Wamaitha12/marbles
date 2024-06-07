@@ -34,15 +34,7 @@
 </head>
 
 <body>
-    <?php
-    // Pre-loader Start
-    include "preloader.php";
-    // Pre-loader End
-
-    // Navbar Area Start
-    include "nav-bar.php";
-    // Navbar Area End
-    ?>
+    
     <!-- Page Title Start -->
     <section class="page-title title-bg12">
         <div class="d-table">

@@ -123,16 +123,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST" && isset($_POST["submit"])) {
 </head>
 
 <body>
-    <?php
-    // Pre-loader Start
-    include "preloader.php";
-    // Pre-loader End
-
-    // Navbar Area Start
-    include "nav-bar.php";
-    // Navbar Area End
-    ?>
-
+   
     <!-- Page Title Start -->
     <section class="page-title title-bg13">
         <div class="d-table">
@@ -248,20 +239,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST" && isset($_POST["submit"])) {
         </div>
     </div>
     <!-- Sign Up Section End -->
-    <?php
-    // Subscribe Section Start
-    include "subscribe.php";
-    // Subscribe Section End
-
-    // Footer Section Start
-    include "footer.php";
-    // Footer Section End
-
-    // Back To Top Start
-    include "top.php";
-    // Back To Top End
-    include "js.php";
-    ?>
+   
 </body>
 
 </html>
