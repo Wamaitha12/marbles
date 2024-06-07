@@ -207,7 +207,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST" && isset($_POST["submit"])) {
                             <button type="submit" name="submit">Sign Up</button>
                         </div>
 
-                        <div class="other-signup text-center">
+                        <!-- <div class="other-signup text-center">
                             <span>Or sign up with</span>
                             <ul>
                                 <li>
@@ -231,7 +231,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST" && isset($_POST["submit"])) {
                                     </a>
                                 </li>
                             </ul>
-                        </div>
+                        </div> -->
 
                         <div class="create-btn text-center">
                             <p>
